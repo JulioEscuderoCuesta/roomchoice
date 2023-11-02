@@ -1,0 +1,353 @@
+<resources>
+    <string name="app_name" translatable="false">RoomChoice</string>
+    <string name="logout" translatable="false">Cerrar Sesión</string>
+
+    <string name="botonTerminar">Terminar</string>
+    <string name="botonListo">Listo</string>
+
+
+    Strings en activity_decidir_quien_expone
+    <string name="textoDecidiendoQuienExpone">Decidiendo quién expone...</string>
+
+    String en activity_esperar_modalidad
+    <string name="textoEsperandoModalidad">Esperando a que el RRHH elija modalidad</string>
+
+    Strings en activity_previa_leer_juego1_leer_texto_sala_aptitudes
+    <string name="tituloPreviaLeer">Es su turno</string>
+    <string name="avisarCogerPapelYBoli">A continuación leerá un texto sobre el que realizará una exposición. Coja papel y boli para tomar notas</string>
+
+    Strings en activity_exposicion_texto
+    <string name="tituloTexto1Juego1">LA ECONOMÍA, EN LAS MANOS DE UN VIRUS</string>
+    <string name="tituloTexto2Juego1">NO ES SUFICIENTE</string>
+    <string name="tituloTexto3Juego1">VIVIR SIN BESOS</string>
+    <string name="tituloTexto4Juego1">EL GUIÓN DE LA VIDA</string>
+    <string name="texto1Juego1">Uno de los efectos secundarios del coronavirus ha sido el de comprobar la absoluta dependencia de la economía mundial de China. Como consecuencia de lo anterior, es evidente que la expansión del Covid-19 está siendo inevitable por la interconexión del mundo, esa globalización que hace que la cadena productiva recorra miles de kilómetros y decenas de países. Era sabido, pero no hasta ahora un factor tan imprevisible como la expansión de un virus ha demostrado, que la economía del planeta pueda ralentizarse si la maquinaria industrial y financiera de China se frena. En este caso, y a diferencia de la crisis económica de 2008, sería plenamente industrial y, además, afecta al corazón de la llamada fábrica del mundo. En el caso de España, el primer impacto se vería en el turismo, algo que amenazará a muchos más países, pero que en nuestro caso tendrá efectos más graves: sólo baste tener en cuenta que ayer mismo las compañías aéreas calcularon en 102.000 millones de euros las pérdidas. Pero hay otros sectores estratégicos amenazados, como el del automóvil, dado que una buena parte de los componentes proceden de China, donde la producción se ha paralizado. Pero, a diferencia de la anterior recesión, por lo menos en la que puede venir se sabe la causa: recordemos que entonces Europa se tapaba los ojos diciendo que la crisis era de las «subprime» de EEUU, lo que provocó tomar medidas con retraso. El ministro Pedro Solbes cuantificó el impacto de la crisis financiera muy por debajo, error que ahora ha reconocido. La ministra de Asuntos Económicos, Nadia Calviño, no se atreve a hacer previsiones y confía en una recuperación económica en los «próximos trimestres» tras el impacto inicial del Covid-19, aunque sus cálculos no están en sus manos, sino en la evolución del virus. Sin embargo, comparte las previsiones de la OCDE, que calcula la ralentización mundial de la economía del 2,9% al 2,4%. Si Calviño ha admitido que la desaceleración tiró por tierra sus previsiones para la preparación de los Presupuestos, de manera que el crecimiento del PIB se quedó en el 1,6%, todavía no contaba con los efectos del coronavirus. Es paradójico que el Gobierno pase de depender de ERC para aprobar las cuentas de los efectos de un virus, y que es posible que en esta coyuntura económica le convenga más mantener los históricos presupuestos de Montoro. Aunque sea una desaceleración coyuntural, según augura el Gobierno, las medidas que ha anunciado –flexibilizar las reglas fiscales a las empresas afectadas o que los trabajadores no consuman el paro en los expedientes de regulación de empleo temporales–, deberán corresponder a una partida económica. De momento, y ante las previsiones de la evolución de la epidemia, el Ibex ha vuelto a resentirse con una caída del 15% en dos semanas –ayer cerró con un descenso del 3,5%–, lo que supone unas pérdidas de 96.000 millones de euros. Si China y EE UU, como primera y segunda economías, serían los países más afectados, estos últimos han reaccionado: la Reserva Federal anunció el pasado lunes la mayor rebaja de tipos desde 2008, lo que recuerda la misma reacción que tuvo Europa con la caída de Lehman Brothers. Si entonces fue China quien inyectó dinero al sistema financiero mundial, nada indica que ahora no lo vuelva a hacer si es necesario, lo que sin duda volverá poner al mundo ante un hecho evidente: la dependencia ante la gran potencia asiática. La gran incógnita es si la economía mundial cambiará en el sentido de revisar su dependencia hacia China, de la misma manera que lo está haciendo EE UU, que, pese a Trump, vuelve a mirar a México como la factoría que siempre fue para su economía. A diferencia de 2008, en esta ocasión la crisis dependerá directamente de la ciencia.</string>
+    <string name="texto2Juego1">El secretario general de Naciones Unidas, António Guterres, había pedido a los países participantes en la cumbre del clima celebrada en Nueva York que llevaran compromisos y no discursos, pero el encuentro terminó con más retórica que planes de acción. Solo 70 de los casi 200 países que suscribieron los acuerdos de París para luchar contra el cambio climático se han comprometido a revisar al alza sus planes de reducción de emisiones, y entre ellos no están los tres principales emisores: China, Estados Unidos e India, que, junto a la Unión Europea, son responsables del 60% de los gases que se emiten a la atmósfera.
+La UE sigue liderando la estrategia de mayor exigencia, aunque ni siquiera ha podido presentar un plan unitario. La falta de compromiso ha puesto de manifiesto que el acuerdo de París se cerró en parte en falso al permitir que fuera cada país el que estableciera sus propios objetivos de reducción de las emisiones. Los planes conocidos hasta ahora no permitirán, como se acordó en París, que la temperatura media del planeta no suba a final de este siglo más de 1,5°C sobre los niveles preindustriales, teniendo en cuenta que ya ha subido 1°C. Para esto, en 2030 se tendrían que haber reducido las emisiones un 55% por debajo de los niveles de 1990, en lugar del 40% establecido en París. Con el actual nivel de compromisos, a final de siglo la temperatura se elevaría más de 3°C y habrían desaparecido todos los hielos marinos, lo que sería una catástrofe.
+Naciones Unidas pretende que en la primera revisión de los planes de reducción, prevista para 2020, pueda elevarse el nivel de exigencia, pero la renuencia de los países más contaminantes pone en peligro incluso los acuerdos ya alcanzados. Y eso ocurre mientras se conocen nuevos datos que demuestran que los efectos del calentamiento son más rápidos y más graves de lo que se había estimado. Así lo corrobora el último informe de la ONU sobre el calentamiento de los océanos y el deshielo de los polos. En su afán por no alarmar y generar rechazo, los científicos habrían podido subestimar algunas de las sinergias que el calentamiento provoca.
+El aumento de la frecuencia e intensidad de manifestaciones climáticas extremas nos sitúa ante la evidencia de que ya estamos pagando un elevado precio por la inacción. Combatir el calentamiento global exigirá un cambio energético y de modelo productivo. Algunos sectores, como los de la energía o la automoción, tendrán que asumir cambios onerosos, pero no hacerlo será a la larga más costoso. La idea es convertir las inversiones necesarias en una oportunidad de mejora. La transición energética no solo es necesaria para evitar el peor escenario climático a final de siglo, sino para reducir las muertes prematuras que ya se producen a causa de la contaminación procedente del uso de combustibles fósiles en el transporte. Hay que celebrar que el Gobierno español haya enviado por fin a Bruselas un ambicioso plan para reducir la contaminación de las ciudades.
+Los Gobiernos deben escuchar a la ciudadanía, cada vez más sensibilizada por la emergencia climática, como lo demuestra el éxito de iniciativas como Friday for Future, entre otras razones porque cada vez son más los damnificados por alteraciones extremas del clima, que impactan de forma azarosa y golpean con más fuerza a quienes están en situación más vulnerable.
+</string>
+    <string name="texto3Juego1">En Los diarios de Adán y Eva, un delicioso relato de Mark Twain que hoy no resistiría la prueba del algodón de la corrección política, Adán se adapta tan bien a la expulsión del paraíso que encuentra rápidamente el lado práctico a ese nuevo mundo donde se ha de convivir con la muerte: “Nos hicimos con varias pieles de los animales muertos. Le pedí (a Eva) que los cosiera, a fin de tener unos trajes adecuados para las ocasiones públicas. He de admitir que ella me hace mucha compañía. Dice que a partir de ahora debemos trabajar para ganarnos la vida, pues así está mandado. En esto ella me será útil, pues el encargado de dirigirlo todo seré yo”.
+Así es como Adán, expulsado del Edén por tomar del fruto de Eva, se hace jefe de este universo que nosotros hemos heredado en una obra tan ingeniosa que nos sirve para actualizar los símbolos de nuestro tiempo.
+Y no vamos a circular desde aquí hacia el debate feminista que las amazónicas nos han puesto tan fácil, no, sino al de la carnalidad. El pecado, el contacto, la manzana prohibida que ofreció la serpiente a Eva, y esta a Adán, truncó el paraíso y abrió la puerta a un mundo de muerte y enfermedades que en esencia ensuciaba la vida sin carnalidad del jardín del Edén.
+Estos días, parece que todo nos redirige a ese falso universo en el que el pecado está excluido: no podemos tocarnos, besarnos o tratarnos a menos de un metro de distancia. Las reuniones son virtuales, se cancelan ferias del libro, del móvil, congresos o hasta el estreno de James Bond. Muchos partidos serán sin público. Un ministro alemán le niega la mano a Merkel, el papa Francisco cancela audiencias mientras el mundo teme por su tos y la Iglesia anula los apretones de mano al dar la paz. La cultura del roce que tanto nos gusta, que tanto necesitamos y que hemos aprendido a desarrollar de tantas formas posibles, se tambalea para dar paso a un paraíso muy distinto del Edén, y es el de los besos por emoticono, las relaciones virtuales, la victoria de la tecnología y la vida sin reuniones. El derecho a roce ha muerto. China reivindica su capacidad de control facial de la población -que tanto nos asusta a los que aún creemos en la libertad- como un enorme instrumento contra el virus, y las redes celebran que las relaciones que favorecen no nos pueden contaminar.
+Pero no salimos ganando en este nuevo paraíso sin pecado concebido. Muchos queremos abrazar, queremos besar, queremos contaminarnos de afecto y eso era lo bueno de este mundo imperfecto,  donde se puede morir pero también amar. Y acataremos los protocolos como Dios manda, claro que sí, pero recordaremos la frase que Mark Twain coloca en la tumba de Eva: “Dondequiera que ella estuviera, allí se hallaba el Paraíso. Adán”. Pues eso.
+</string>
+    <string name="texto4Juego1">Llamas al médico y te dice que tienes un virus mortal. Un virus más letal que la covid-19, porque mata al 100% de los infectados. Y más inteligente, porque te provocará la muerte cuando y como él quiera: mediante una afección cardiorrespiratoria repentina, camuflado bajo un cáncer lento, o de cualquier manera caprichosa.
+Si esto te sucediera, querrías replantearte tu vida. Pues ya deberías haberlo hecho, porque todos llevamos ese virus —el de la muerte— dentro. Este experimento mental fue usado hace años por un pensador iconoclasta, Sam Harris, para poner de relieve el distanciamiento de nuestras sociedades hacia la muerte. Hoy, otro virus, este real, nos ha puesto a todos de golpe frente al espejo de nuestra vulnerabilidad. Un horrible experimento a escala planetaria.
+Hemos construido nuestro mundo moderno en un lugar alejado de la muerte. No la discutimos en la sobremesa. No llevamos a los niños a los entierros. Mantenemos nuestra atención embriagada con una sucesión perpetua de entretenimientos: series de televisión, videojuegos, deporte, pilates. Ejercitamos todos nuestros músculos, menos los que nos preparan para el combate final. No para ganarlo, eso es imposible; sino para aceptarlo.
+Hablamos mucho sobre cómo la crisis del coronavirus reivindicará el papel de la ciencia en nuestra sociedad, pero también deberíamos aspirar a que revitalice la filosofía y literatura clásicas. No solo porque son fuente de conocimiento eterno, sino por puros motivos empíricos: la pandemia, algo excepcional para nosotros, era, antaño, lo normal. El emperador Marco Aurelio escribió sus meditaciones estoicas en un periodo repleto de pestes y guerras. Shakespeare, quien esquivó varias plagas en su infancia, dio forma a dramas como el Rey Lear en cuarentena por la peste bubónica.
+Estos pensadores nos dan lecciones muy útiles, empezando por la premisa de Epicteto de que somos actores en un guión escrito por otros. Y, por eso, debemos luchar. La cultura dominante hoy, basada en que escribimos nuestro destino, nos paraliza en momentos de crisis. Entender que la vida es incierta nos da fuerzas. Como señala la psicóloga Brené Brown, solo es valiente quien se expone, quien es vulnerable: el soldado que sabe que puede morir, la estudiante que puede suspender. No escribimos el guión de nuestra vida, pero podemos interpretarlo con coraje.
+    </string>
+    <string name="tituloSalaExposicionTexto">Exposición de texto</string>
+
+    Strings en activity_previa_exponer
+    <string name="tituloPreviaExponer">Toca exponer</string>
+    <string name="avisarComienzaExposicion">A continuación tendrá 1 minuto y medio para exponer. Comenzará cuando pulse el botón de abajo</string>
+    <string name="textoExponerButton">Exponer</string>
+
+    Strings en activity_escuchar_exposicion_sala_aptitudes
+    <string name="tituloSalaEscucharExposicionTexto">Esperando exposición...</string>
+    <string name="empezarEscucharButton">Escuchar Exposición</string>
+
+    Strings en activity_test_exposicion_texto_sala_aptitudes
+    <string name="tituloTestEvaluar">Evaluación</string>
+    <string name="pregunta1TestSalaAptitudes">¿Te ha gustado el texto?</string>
+    <string name="pregunta2TestSalaAptitudes">¿Se ha explicado bien el texto?</string>
+    <string name="pregunta3TestSalaAptitudes">¿Has podido responder bien a todas las preguntas con la exposición de texto realizada?</string>
+    <string name="pregunta4TestSalaAptitudes">¿Se ha comunicado de forma fluida, sin uso de muletillas, expresiones repetitivas…?</string>
+    <string name="muyEnDesacuerdoRadioButton">Muy en desacuerdo</string>
+    <string name="enDesacuerdoRadioButton">En desacuerdo</string>
+    <string name="indiferenteButton">Indiferente</string>
+    <string name="deacuerdoRadioButton">De acuerdo</string>
+    <string name="muyDeacuerdoRadioButton">Muy de acuerdo</string>
+
+    Strings en activity_sala_aptitudes_rrhh
+    <string name="tituloSalaAptitudesRRHH">Sala Aptitudes</string>
+    <string name="tituloListaJugadoresEvaluadosSalaAptitudesRRHH">Jugadores evaluados</string>
+    <string name="tituloListaJugadoresQueTerminanSalaAptitudesRRHH">Jugadores que han terminado</string>
+    <string name="botonTerminarJuego">Terminar Juego</string>
+    <string name="alertaNoHanSidoEvaluadosTodosLosJugadores">No han sido evaluados todos los jugadores. ¿Está seguro de que desea continuar?</string>
+    <string name="alertaNoHanTerminadoElTestTodosLosJugadores">No han terminado el test todos los jugadores. ¿Está seguro de que desea continuar?</string>
+    <string name="confirmacionTerminarJuego">¿Terminar juego?</string>
+    <string name="si">Si</string>
+    <string name="no">No</string>
+
+    Strings en activity_sala_de_espera
+    <string name="tituloSalaDeEspera">Sala de Espera</string>
+    <string name="siguienteJuegoButton">Siguiente juego</string>
+    <string name="terminarPartidaButton">Terminar partida</string>
+
+    Strings en pantalla_previa_juego2_leer_texto_sala_aptitudes
+    <string name="tituloPantallaPreviaJuego2LeerTextoSalaAptitudes">Juego 2. Lectura de Texto</string>
+    <string name="explicacionJuego2SalaAptitudes">A continuación leerá un texto sobre el cual realizará un test para valorar lo que ha entendido.
+    Tenga en cuenta que el tiempo que tarde en leer el texto será valorado</string>
+    <string name="textoProgressBar">Esperando al resto de jugadores...</string>
+
+    Strings en pantalla_leer_texto_juego2_sala_aptitudes
+    <string name="tituloTexto1Juego2">INSOMNIO</string>
+    <string name="tituloTexto2Juego2">NO, ESTÚPIDOS</string>
+    <string name="tituloTexto3Juego2">ATERRIZAJES</string>
+    <string name="tituloTexto4Juego2">LA VIDA DULCE</string>
+    <string name="texto1Juego2">Cuando apareció el cadáver de Mari Luz Cortés, experimenté un síntoma físico peculiar. Fue como si la desolación vaciara mis huesos, porque los sentí repentinamente huecos mientras contemplaba las fotos de la niña, los rostros de sus padres, las imágenes de archivo del culpable. Mi cuerpo no respondía sólo al horror. También había rabia, impotencia, tristeza y, sobre todo, compasión en el sentido más clásico del término, el impulso de ponerme en el lugar de otra madre, de sufrir con ella, lo mismo que ella.
+Hace unos días, las advertencias de Eduardo López-Palop, el juez encargado de la ejecución de las penas contra los maltratadores en Madrid, me devolvieron aquella conmoción. En un ejercicio de responsabilidad insólito en este país, donde la expresión "escurrir el bulto" parece integrar el decálogo profesional de cualquier cargo público, López-Palop decidió abrir a los ciudadanos las puertas de su juzgado, 7.000 sentencias pendientes de ejecución y sólo dos personas para tramitarlas, sin esperar a que sucediera una tragedia de la que justificarse. Su situación es tan intolerable, tan evidentemente vergonzosa, que no merece comentario, pero una de sus declaraciones volvió a suscitar mi compasión. Al llegar a casa, por la noche, y ver en las noticias que algún hombre ha asesinado a su esposa, el juez siempre se pregunta si será uno de aquellos a los que le ha resultado materialmente imposible meter en la cárcel, y esa noche no puede dormir.
+
+En el discurso que pronunció al recoger el Premio Cervantes, Juan Gelman evocó al responsable del bombardeo de Hiroshima, que solía presumir de que durmió de un tirón esa y todas las demás noches de su vida. Mientras le escuchaba, pensé que el juez López-Palop bien puede estar orgulloso de su insomnio. A veces, las ojeras son una condecoración que no está al alcance de cualquiera.
+</string>
+    <string name="texto2Juego2">Las crisis son buenas para pensar. Un sugestivo punto de partida es la afirmación de Benedicto XVI, el Papa más intelectual: "El dinero no es nada". Me recordó la conversación matemática que atribuyen a dos surrealistas bilbaínos. "Pues a mí el resultado de la operación me da infinito", dice uno, algo perplejo. Y responde el otro: "¿Infinito? ¡Me parece poco!". Está claro que el Papa, como los caballeros andantes y los grandes banqueros, no puede llevar dinero suelto en el bolsillo. En El Quijote, cuando el héroe necesita unos reales tiene que pedírselos a Sancho. Hay un libro que trata sobre la idea del Alzheimer de Dios. El ser humano sería un instrumento divino para recordar, para descender de la infinitud y lo intemporal. Esa gran cabriola que va de la gran nada original a Liza Minnelli cantando al dinero mágico en Cabaret.
+
+Las crisis son buenas para pensar, sí, pero también para vender espejismos. Dinero tóxico. Política tóxica. Periodismo tóxico. Es lo que está sucediendo con la operación para resucitar la energía nuclear. El viejo lobby, aprovechando la crisis, y con propagandistas reciclados, vuelve a las suyas para reactivar el negocio, pero esta vez con el engaño de ofrecer el infinito. Presentarse como la energía limpia que puede frenar el cambio climático. En El espejismo nuclear, un ensayo científico que atrapa como un thriller, Marcel Coderch y Núria Almirón desmontan el nuevo disfraz del "milagro salvador". En realidad, la energía nuclear, además de su trágico historial ecológico, ha sido uno de los mayores desastres económicos para la humanidad, con problemas "infinitos", como la basura radiactiva. Ahora se habla de construir 400 nuevas centrales y las grandes potencias recorren el mundo vendiendo el espejismo y, de paso, reventando el Tratado de No Proliferación. Es la locura final. La opción cianuro. Hay que perfilar el antiguo eslogan de ¿Nucleares? No, gracias. ¿Nucleares? No, estúpidos.
+</string>
+    <string name="texto3Juego2">Las compañías de acceso a Internet venían prometiendo al usuario una velocidad que luego no le daban. Y no se les caía el pelo. Ahora tampoco se les va a caer, aunque Industria las obligará a proporcionar como mínimo el 80% de lo que ofrecen (y de lo que pagamos, se supone). El ardid para estafar al personal consistía en que por arriba te vendían 20 megas y por abajo incluían el término "hasta". Es decir, "hasta 20 megas", que eran los que te cobraban. Viene a ser como vender bocadillos "hasta" de jamón de bellota por un euro y darlos de carne de perro. Oiga, que esto no es jamón. Nosotros hemos puesto en el anuncio "hasta de jamón". De hecho, cada cien de mortadela damos uno de Jabugo.
+
+Yo no sé medir megas, ni siquiera sé el aspecto que tienen, no los reconocería por la calle, pero me fastidia que me cobren 20 y me den 10. Las autoridades deberían haberlo impedido antes. Claro que también se estaban vendiendo pisos de 70 a 100 sin que nadie abriera la boca. Lo sabíamos todos: el comprador, el constructor, el banco, el notario, el súrsum corda, pero nos hacía gracia ese 30% de desfase, ese 30% de delirio, de alucinación, de ensueño. Mira, he comprado este cuchitril por 50 y lo he vendido por 70 en cuatro días. Ahora me voy a hipotecar para, con estos 70, adquirir uno de 90 que colocaré a 120 al mes que viene. Cuando no son megas son metros cuadrados, el caso es vivir con un equis por ciento de ficción, de aire, de humo, de mentira. "Hasta 20 megas", qué listos. Y nosotros hasta las narices (o sea, bastante más abajo), pero hemos de dar las gracias porque ahora nos proporcionarán al menos un 80% de realidad. No es el 100%, pero quién aguanta un 100% de realidad a palo seco. Además, conviene hacer una transición lenta, como en el caso de la burbuja inmobiliaria, un modelo de aterrizaje suave.
+</string>
+    <string name="texto4Juego2">Henos aquí en mitad de la canícula y quizá de nuestras vacaciones. O sea, justo en esos días con los que soñamos el resto del año. Un tiempo de sensualidad en el que decidimos mimar nuestro cuerpo: la gozosa pereza de levantarse tarde, el placer de comer y beber con cierto exceso, el gustito de sentir la frialdad del agua por encima de nuestra piel recalentada. Todo perfecto, salvo por esa tonta tendencia que padecemos los humanos a sentirnos insatisfechos con lo que tenemos y a fastidiarnos el presente con cualquier fruslería. Como decía John Lennon, la vida es eso que sucede mientras nosotros nos dedicamos a otra cosa.
+Y esa otra cosa puede ser una estupidez. El otro día vi a una chica treintañera en una playa cubierta con una camisola hasta las rodillas. "¡Que no, que no me quedo en bañador, que estoy muy gorda!", decía con exasperación a sus amigas. No sé qué está pasando en España con el cuerpo: somos el primer país de Europa y el tercero del mundo en operaciones de cirugía estética. Se diría que no conseguimos aceptarnos como somos. Por añadidura, la obsesión por la delgadez es un malentendido mundial. Hace unos meses, una revista femenina australiana publicó las fotos de cuatro chicas con tipos distintos y los lectores tuvieron que elegir el cuerpo ideal. La mayoría de los hombres eligieron a una joven que había sido descrita como "con sobrepeso" por el 85% de las mujeres. Y la modelo que recibió la gran mayoría de los votos femeninos sólo obtuvo un 19% de los votos masculinos: la chica era un espárrago. No sabemos vernos, de la misma manera que no sabemos apreciar el presente en toda su riqueza e intensidad. ¿Un cuerpo gordo? No, un cuerpo sano, una realidad apacible, un momento feliz. Déjate de pamemas y disfruta el regalo de esta vida dulce que te late en las venas. Porque luego se acaba.
+</string>
+    <string name="textoEsperandoEvaluacionCreatividad">Esperando evaluaciones</string>
+    <string name="textoDireccionCorreoEnviar">Escriba el email al que enviar sus resultados</string>
+    <string name="textoEsperandoGrupo">Esperando al resto de participantes</string>
+
+    Strings en activity_test_juego1_sala_aptitudes
+    <string name="pregunta1Texto1Juego1">¿Qué sectores estratégicos se han visto más afectados por esta crisis?</string>
+    <string name="pregunta2Texto1Juego1">¿De qué país dependen fundamentalmente los componentes de los automóviles?</string>
+    <string name="pregunta3Texto1Juego1">¿Qué decisión ha tomado la Reserva Federal Estadounidense con respecto a los tipos de interés?</string>
+    <string name="pregunta4Texto1Juego1">Según Nadia Calviño los datos para los próximos trimestres en relación al PIB son:</string>
+    <string name="pregunta5Texto1Juego1">¿Cuáles son las medidas previstas por el gobierno español?</string>
+
+    <string name="pregunta1Texto2Juego1">-La última cumbre del clima celebrada en Nueva York fue un éxito por la cantidad de compromisos alcanzados, aunque china y EEUU no votaron a favor</string>
+    <string name="pregunta2Texto2Juego1">Al actual ritmo de emision de gases, habrán desaparecido todos los hielos marinos</string>
+    <string name="pregunta3Texto2Juego1">El Gobierno español va a estudiar enviar a Bruselas un ambicioso plan para reducir la contaminación de las ciudades.</string>
+    <string name="pregunta4Texto2Juego1">La UE sigue liderando la estrategia de mayor exigencia en cuanto al cambio climático, presentando un plan unitario de respuesta a este problema.</string>
+    <string name="pregunta5Texto2Juego1">Según la ONU la velocidad a la que avanza el cambio climático es mas grave de los que se creía</string>
+
+    <string name="pregunta1Texto3Juego1">¿Cómo se llama el libro al que se hace referencia?</string>
+    <string name="pregunta2Texto3Juego1">¿Qué es lo que no se cancela como consecuencia del virus?</string>
+    <string name="pregunta3Texto3Juego1">¿En dónde se implanta el control facial de la población?</string>
+    <string name="pregunta4Texto3Juego1">¿Cómo se hace referencia a esta nueva situación respecto al libro mencionado?</string>
+    <string name="pregunta5Texto3Juego1">Dónde se coloca la siguiente frase, “Dondequiera que ella estuviera, allí se hallaba el Paraíso. Adán”</string>
+
+    <string name="pregunta1Texto4Juego1">¿Cómo se ha construido el mundo según el texto?</string>
+    <string name="pregunta2Texto4Juego1">¿Qué se pide en el texto que se reivindique aparte del papel de la ciencia tras la crisis del coronavirus?</string>
+    <string name="pregunta3Texto4Juego1">¿Qué libro escribió Skakespeare durante la peste bubónica?</string>
+    <string name="pregunta4Texto4Juego1">¿Qué persona no se menciona en el texto?</string>
+    <string name="pregunta5Texto4Juego1">¿Cómo hay que interpretar la vida según el texto?</string>
+
+    <string name="respuesta1Pregunta1Texto1Juego1">Agricultura</string>
+    <string name="respuesta2Pregunta1Texto1Juego1">Automovilismo</string>
+    <string name="respuesta3Pregunta1Texto1Juego1">Servicios</string>
+    <string name="respuesta4Pregunta1Texto1Juego1">Industrial</string>
+
+    <string name="respuesta1Pregunta2Texto1Juego1">EEUU</string>
+    <string name="respuesta2Pregunta2Texto1Juego1">Indonesia</string>
+    <string name="respuesta3Pregunta2Texto1Juego1">China</string>
+    <string name="respuesta4Pregunta2Texto1Juego1">Ninguna de las anteriores</string>
+
+    <string name="respuesta1Pregunta3Texto1Juego1">Modificarlos con prudencia</string>
+    <string name="respuesta2Pregunta3Texto1Juego1">Bajarlos notablemente</string>
+    <string name="respuesta3Pregunta3Texto1Juego1">Subirlos notablemente</string>
+    <string name="respuesta4Pregunta3Texto1Juego1">No actuar y que se equilibre el mercado</string>
+
+    <string name="respuesta1Pregunta4Texto1Juego1">Positivos</string>
+    <string name="respuesta2Pregunta4Texto1Juego1">Negativos</string>
+    <string name="respuesta3Pregunta4Texto1Juego1">Dependen de la evolución de la economía China</string>
+    <string name="respuesta4Pregunta4Texto1Juego1">Ninguna de las anteriores</string>
+
+    <string name="respuesta1Pregunta5Texto1Juego1">Flexibilizar las reglas fiscales a las empresas afectadas</string>
+    <string name="respuesta2Pregunta5Texto1Juego1">Que los trabajadores no consuman el paro en los expedientes de regulación de empleo temporales</string>
+    <string name="respuesta3Pregunta5Texto1Juego1">A y B son correctas</string>
+    <string name="respuesta4Pregunta5Texto1Juego1">Ninguna es correcta</string>
+
+    <string name="respuesta1Pregunta1Texto2Juego1">Verdadero</string>
+    <string name="respuesta2Pregunta1Texto2Juego1">Falso</string>
+
+    <string name="respuesta1Pregunta2Texto2Juego1">Verdadero</string>
+    <string name="respuesta2Pregunta2Texto2Juego1">Falso</string>
+
+    <string name="respuesta1Pregunta3Texto2Juego1">Verdadero</string>
+    <string name="respuesta2Pregunta3Texto2Juego1">Falso</string>
+
+    <string name="respuesta1Pregunta4Texto2Juego1">Verdadero</string>
+    <string name="respuesta2Pregunta4Texto2Juego1">Falso</string>
+
+    <string name="respuesta1Pregunta5Texto2Juego1">Verdadero</string>
+    <string name="respuesta2Pregunta5Texto2Juego1">Falso</string>
+
+    <string name="respuesta1Pregunta1Texto3Juego1">El primer libro de Adán y Eva</string>
+    <string name="respuesta2Pregunta1Texto3Juego1">La vida de Adán y Eva</string>
+    <string name="respuesta3Pregunta1Texto3Juego1">El Apocalipsis de Adán y Eva</string>
+    <string name="respuesta4Pregunta1Texto3Juego1">Los diarios de Adán y Eva</string>
+
+
+    <string name="respuesta1Pregunta2Texto3Juego1">Ferias del libro</string>
+    <string name="respuesta2Pregunta2Texto3Juego1">Congresos</string>
+    <string name="respuesta3Pregunta2Texto3Juego1">Estreno de James Bond</string>
+    <string name="respuesta4Pregunta2Texto3Juego1">Partidos</string>
+
+
+    <string name="respuesta1Pregunta3Texto3Juego1">Japón</string>
+    <string name="respuesta2Pregunta3Texto3Juego1">China</string>
+    <string name="respuesta3Pregunta3Texto3Juego1">Corea del Norte</string>
+    <string name="respuesta4Pregunta3Texto3Juego1">Taiwán</string>
+
+
+    <string name="respuesta1Pregunta4Texto3Juego1">Como un antiguo paraíso con pecado concebido</string>
+    <string name="respuesta2Pregunta4Texto3Juego1">Como un nuevo paraíso con pecado concebido</string>
+    <string name="respuesta3Pregunta4Texto3Juego1">Como un antiguo paraíso sin pecado concebido</string>
+    <string name="respuesta4Pregunta4Texto3Juego1">Como un nuevo paraíso sin pecado concebido</string>
+
+
+    <string name="respuesta1Pregunta5Texto3Juego1">En el féretro</string>
+    <string name="respuesta2Pregunta5Texto3Juego1">En la tumba</string>
+    <string name="respuesta3Pregunta5Texto3Juego1">En el libro</string>
+    <string name="respuesta4Pregunta5Texto3Juego1">En una carta</string>
+
+    <string name="respuesta1Pregunta1Texto4Juego1">Alejado de la muerte</string>
+    <string name="respuesta2Pregunta1Texto4Juego1">Preparado para la muerte</string>
+    <string name="respuesta3Pregunta1Texto4Juego1">Indiferente ante la muerte</string>
+    <string name="respuesta4Pregunta1Texto4Juego1">Ninguna de las anteriores</string>
+
+
+    <string name="respuesta1Pregunta2Texto4Juego1">El uso de las tecnologías</string>
+    <string name="respuesta2Pregunta2Texto4Juego1">La mejora de los centros hospitalarios</string>
+    <string name="respuesta3Pregunta2Texto4Juego1">Revitalizar la filosofía y literatura clásicas</string>
+    <string name="respuesta4Pregunta2Texto4Juego1">Fomentar el entretenimiento</string>
+
+    <string name="respuesta1Pregunta3Texto4Juego1">La tempestad</string>
+    <string name="respuesta2Pregunta3Texto4Juego1">Hamlet</string>
+    <string name="respuesta3Pregunta3Texto4Juego1">Otelo</string>
+    <string name="respuesta4Pregunta3Texto4Juego1">El rey Lear</string>
+
+    <string name="respuesta1Pregunta4Texto4Juego1">El filósofo Epicteto</string>
+    <string name="respuesta2Pregunta4Texto4Juego1">La psicóloga Brené Brown</string>
+    <string name="respuesta3Pregunta4Texto4Juego1">EL emperador Marco Aurelio</string>
+    <string name="respuesta4Pregunta4Texto4Juego1">El psicólogo William James</string>
+
+    <string name="respuesta1Pregunta5Texto4Juego1">Con cautela</string>
+    <string name="respuesta2Pregunta5Texto4Juego1">Con optimismo</string>
+    <string name="respuesta3Pregunta5Texto4Juego1">Con coraje</string>
+    <string name="respuesta4Pregunta5Texto4Juego1">Con tristeza</string>
+
+    Strings en activity_test_juego2_sala_aptitudes
+    <string name="pregunta1Texto1Juego2">¿Sobre qué trata, principalmente, el texto?</string>
+    <string name="pregunta2Texto1Juego2">¿Quién lo relata</string>
+    <string name="pregunta3Texto1Juego2">¿Qué emoción no se genera en la persona que escribe esta opinión?</string>
+    <string name="pregunta4Texto1Juego2">¿En base a qué persona se desencadena la crítica?</string>
+    <string name="pregunta5Texto1Juego2">¿Sobre qué premio se hace referencia en el texto?</string>
+
+    <string name="pregunta1Texto2Juego2">¿Sobre qué trata, principalmente, el texto?</string>
+    <string name="pregunta2Texto2Juego2">¿A qué actriz hace referencia el texto?</string>
+    <string name="pregunta3Texto2Juego2">¿En base a qué persona se desencadena la crítica?</string>
+    <string name="pregunta4Texto2Juego2">¿Sobre qué libro se hace referencia en el texto?</string>
+    <string name="pregunta5Texto2Juego2">El texto promueve la energía nuclear siempre que sea beneficiosa para las personas.</string>
+
+    <string name="pregunta1Texto3Juego2">¿Sobre qué trata, principalmente, el texto?</string>
+    <string name="pregunta2Texto3Juego2">¿Por qué se hace alusión a los bocadillos de jamón?</string>
+    <string name="pregunta3Texto3Juego2">¿En base a qué se desencadena la crítica?</string>
+    <string name="pregunta4Texto3Juego2">¿Cuál es el procentaje que se ha impuesto en Industria para las compañías?</string>
+    <string name="pregunta5Texto3Juego2">En la crítica se nombra la burbuja inmobiliaria como un aspecto positivo para justificar la nueva normativa de Industria.</string>
+
+    <string name="pregunta1Texto4Juego2">¿Sobre qué trata, principalmente, el texto?</string>
+    <string name="pregunta2Texto4Juego2">Quién dijo “La vida es eso que sucede mientras nosotros nos dedicamos a otra cosa”:</string>
+    <string name="pregunta3Texto4Juego2">¿En base a qué se desencadena la crítica?</string>
+    <string name="pregunta4Texto4Juego2">El peso de las operaciones de cirugía estética en España respecto al mundo ocupa la siguiente posición:</string>
+    <string name="pregunta5Texto4Juego2">Los votos masculinos y femeninos sobre el cuerpo ideal en la revista femenina australiana son prácticamente iguales.</string>
+
+    <string name="respuesta1Pregunta1Texto1Juego2">El cadáver de Mari Luz Cortés,</string>
+    <string name="respuesta2Pregunta1Texto1Juego2">El discurso de Juan Gelman</string>
+    <string name="respuesta3Pregunta1Texto1Juego2">Las declaraciones del juez López-Palop</string>
+
+    <string name="respuesta1Pregunta2Texto1Juego2">Una mujer</string>
+    <string name="respuesta2Pregunta2Texto1Juego2">Un hombre</string>
+    <string name="respuesta3Pregunta2Texto1Juego2"></string>
+
+    <string name="respuesta1Pregunta3Texto1Juego2">Rabia</string>
+    <string name="respuesta2Pregunta3Texto1Juego2">Tristeza</string>
+    <string name="respuesta3Pregunta3Texto1Juego2">Miedo</string>
+
+    <string name="respuesta1Pregunta4Texto1Juego2">El cadáver de Mari Luz Cortés</string>
+    <string name="respuesta2Pregunta4Texto1Juego2">El juez López-Palop</string>
+    <string name="respuesta3Pregunta4Texto1Juego2">El escritor Juan Gelman</string>
+
+    <string name="respuesta1Pregunta5Texto1Juego2">Premio Cervantes</string>
+    <string name="respuesta2Pregunta5Texto1Juego2">Premio Nadal</string>
+    <string name="respuesta3Pregunta5Texto1Juego2">Premio Planeta</string>
+
+    <string name="respuesta1Pregunta1Texto2Juego2">La opinión del Papa</string>
+    <string name="respuesta2Pregunta1Texto2Juego2">La energía nuclear</string>
+    <string name="respuesta3Pregunta1Texto2Juego2">El libro de El Quijote</string>
+
+    <string name="respuesta1Pregunta2Texto2Juego2">Liza Minnelli</string>
+    <string name="respuesta2Pregunta2Texto2Juego2">Karla Weil</string>
+    <string name="respuesta3Pregunta2Texto2Juego2">Judy Minnelli</string>
+
+    <string name="respuesta1Pregunta3Texto2Juego2">Benedicto XVI</string>
+    <string name="respuesta2Pregunta3Texto2Juego2">Marcel Coderch</string>
+    <string name="respuesta3Pregunta3Texto2Juego2">Núria Almiró</string>
+
+    <string name="respuesta1Pregunta4Texto2Juego2">El espejismo nuclear</string>
+    <string name="respuesta2Pregunta4Texto2Juego2">La energía nuclear</string>
+    <string name="respuesta3Pregunta4Texto2Juego2">Conjunto vacío</string>
+
+    <string name="respuesta1Pregunta5Texto2Juego2">Verdadero</string>
+    <string name="respuesta2Pregunta5Texto2Juego2">Falso</string>
+
+    <string name="respuesta1Pregunta1Texto3Juego2">El precio de los megas</string>
+    <string name="respuesta2Pregunta1Texto3Juego2">La burbuja inmobiliaria</string>
+    <string name="respuesta3Pregunta1Texto3Juego2">La falta de realidad en las empresas</string>
+
+    <string name="respuesta1Pregunta2Texto3Juego2">Porque están buenos</string>
+    <string name="respuesta2Pregunta2Texto3Juego2">Porque los compara con la venta de pisos</string>
+    <string name="respuesta3Pregunta2Texto3Juego2">Porque los compara con los megas de las compañías de acceso a internet</string>
+
+    <string name="respuesta1Pregunta3Texto3Juego2">A la burbuja inmobiliaria y sus consecuencias</string>
+    <string name="respuesta2Pregunta3Texto3Juego2">Los precios de las compañías eléctricas</string>
+    <string name="respuesta3Pregunta3Texto3Juego2">La velocidad de los megas en internet</string>
+
+    <string name="respuesta1Pregunta4Texto3Juego2">70%</string>
+    <string name="respuesta2Pregunta4Texto3Juego2">30%</string>
+    <string name="respuesta3Pregunta4Texto3Juego2">80%</string>
+
+    <string name="respuesta1Pregunta5Texto3Juego2">Verdadero</string>
+    <string name="respuesta2Pregunta5Texto3Juego2">Falso</string>
+
+    <string name="respuesta1Pregunta1Texto4Juego2">Las vacaciones y la rutina de esta</string>
+    <string name="respuesta2Pregunta1Texto4Juego2">Las operaciones estéticas en el mundo</string>
+    <string name="respuesta3Pregunta1Texto4Juego2">El impacto del aspecto físico en las personas</string>
+
+    <string name="respuesta1Pregunta2Texto4Juego2">Charles Chaplin</string>
+    <string name="respuesta2Pregunta2Texto4Juego2">John Lennon</string>
+    <string name="respuesta3Pregunta2Texto4Juego2">Albert Einstein</string>
+
+    <string name="respuesta1Pregunta3Texto4Juego2">La elección del cuerpo ideal según los lectores de una revista</string>
+    <string name="respuesta2Pregunta3Texto4Juego2">La opinión de una chica treintañera sobre su cuerpo</string>
+    <string name="respuesta3Pregunta3Texto4Juego2">Los quehaceres durante la época de vacaciones</string>
+
+    <string name="respuesta1Pregunta4Texto4Juego2">Primera</string>
+    <string name="respuesta2Pregunta4Texto4Juego2">Tercera</string>
+    <string name="respuesta3Pregunta4Texto4Juego2">No se dice en el texto</string>
+
+    <string name="respuesta1Pregunta5Texto4Juego2">Verdadero</string>
+    <string name="respuesta2Pregunta5Texto4Juego2">Falso</string>
+
+    <string name="respuestaVerdadera">Verdadero</string>
+    <string name="respuestaFalsa">Falso</string>
+
+    Strings en actibity_elegir_juego_sala_aptitudes
+    <string name="tituloElegirJuegoSalaAptitudes">Elija un juego</string>
+    <string name="explicacionJuegoExposicionTexto">Exposición de texto: a un miembro del equipo se le dará un texto sobre un tema actual y
+        tendrá 10 minutos para preparar una exposición para el resto de su grupo y exponer en un tiempo máximo de 1 minuto y 30 segundos.
+        El resto de jugadores escucharán la exposición y la evaluarán. Se repetirá para todos los jugadores.</string>
+    <string name="explicacionJuegoLecturaTexto">Lectura de texto: a cada jugador se le dará un texto sobre el que tendrá que responder un
+        test con una serie de preguntas para poder valorar su comprensión lectora.</string>
+    <string name="botonTerminarSalaAptitudes">Terminar sala</string>
+
+    Strings en activity_esperar_juego_sala_aptitudes
+    <string name="textoEsperandoJuegoSalaAptitudes">Esperando a que RRHH elija un juego...</string>
+
+    <string name="avisarEnviarCorreo">Si usted desea, puede enviar un correo con los resultados de su partida al encargado de la sala.
+    Puede abandonar la partida pulsando el botón de hacia atrás de la barra de navegación.</string>
+
+</resources>

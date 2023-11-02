@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".salacreatividad.ElegirModalidadSalaCreatividad">
+
+
+    <Button
+        android:id="@+id/button5Words"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:onClick="startFiveWords"
+        android:text="5 Palabras"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/button30Seconds"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_margin_right"
+        app:layout_constraintStart_toStartOf="@id/guideline_margin_left"
+        app:layout_constraintTop_toTopOf="@id/guideline_buttons"
+        android:background="@drawable/botones_marrones"/>
+
+    <Button
+        android:id="@+id/button30Seconds"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/botones_azules"
+        android:onClick="startShootingWords"
+        android:textColor="@color/white"
+        android:text="Palabras cada 30 segundos"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_margin_bottom"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_margin_right"
+        app:layout_constraintStart_toEndOf="@+id/guideline_margin_left"
+        app:layout_constraintTop_toBottomOf="@+id/button5Words"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_margin_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_margin_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.98" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.75" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_margin_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.08"/>
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_margin_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.92"/>
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5"/>
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elija modalidad"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1" />
+    <TextView
+        android:id="@+id/textViewDesc5Words"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="5 palabras: Se facilitará al jugador en la pantalla del dispositivo 5 palabras y deberá elaborar una historia
+que incluya esas palabras."
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@id/textViewDesc30seconds"
+        app:layout_constraintEnd_toEndOf="@id/guideline_margin_right"
+        app:layout_constraintStart_toStartOf="@id/guideline_margin_left"
+        app:layout_constraintTop_toBottomOf="@id/textViewTitle"
+        app:layout_constraintVertical_bias="0.1"
+        app:layout_constraintHorizontal_bias="0.1"/>
+    <TextView
+        android:id="@+id/textViewDesc30seconds"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="30 segundos: El jugador tendrá que ir creando una historia con las palabras que vayan saliendo en la
+pantalla."
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_center_horizontal"
+        app:layout_constraintEnd_toEndOf="@id/guideline_margin_right"
+        app:layout_constraintStart_toStartOf="@id/guideline_margin_left"
+        app:layout_constraintTop_toBottomOf="@id/textViewDesc5Words"
+        app:layout_constraintVertical_bias="0.1"
+        app:layout_constraintHorizontal_bias="0.1"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

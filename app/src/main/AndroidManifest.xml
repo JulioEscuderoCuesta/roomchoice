@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.roomchoice">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/room_choice"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/room_choice_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.Light.NoActionBar">
+        <activity
+            android:name=".PantallaDeArranque"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ShowResults"
+            android:exported="true" />
+        <activity
+            android:name=".salaaptitudes.EnviarCorreoSalaAptitudes"
+            android:exported="true" />
+        <activity
+            android:name=".salaaptitudes.EsperarJuegoSalaAptitudes"
+            android:exported="false" />
+        <activity
+            android:name=".salaaptitudes.ElegirJuegoSalaAptitudes"
+            android:exported="false" />
+        <activity
+            android:name=".salacreatividad.EsperandoEvaluacionCreatividad"
+            android:exported="true" />
+        <activity
+            android:name=".salacreatividad.PuntuarTexto"
+            android:exported="true" />
+        <activity
+            android:name=".salacreatividad.EsperarGrupo"
+            android:exported="true" />
+        <activity
+            android:name=".salacreatividad.EsperarModalidad"
+            android:exported="true" />
+        <activity
+            android:name=".salaaptitudes.juego2.TestJuego2SalaAptitudes"
+            android:exported="false" />
+        <activity
+            android:name=".salaaptitudes.juego2.LeerTextoSalaAptitudes"
+            android:exported="false" />
+        <activity
+            android:name=".salaaptitudes.juego1.DecidirQuienExpone"
+            android:exported="false" />
+        <activity
+            android:name=".salaaptitudes.juego1.EscucharExposicionSalaAptitudes"
+            android:exported="false" />
+        <activity
+            android:name=".salaaptitudes.juego1.TestJuego1SalaAptitudes"
+            android:exported="false" />
+        <activity
+            android:name=".salaaptitudes.SalaAptitudesRRHH"
+            android:exported="false" />
+        <activity
+            android:name=".salaaptitudes.juego1.HacerExposicionSalaAptitudes"
+            android:exported="false" />
+        <activity
+            android:name=".salacreatividad.WordsRoom"
+            android:exported="true"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".salacreatividad.ElegirModalidadSalaCreatividad"
+            android:exported="true" />
+        <activity
+            android:name=".UnirASala"
+            android:exported="false" />
+        <activity
+            android:name=".CreacionSala"
+            android:exported="false" />
+        <activity
+            android:name=".LoggedInActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AuthActivity"
+            android:exported="true"></activity>
+    </application>
+
+</manifest>

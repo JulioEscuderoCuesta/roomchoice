@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rotation="0"
+    tools:context=".salacreatividad.WordsRoom">
+
+    <TextView
+        android:id="@+id/titleModalidad5Palabras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoSizeTextType="uniform"
+        android:text="Crea tu historia"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/guideline_margin_left"
+        app:layout_constraintTop_toBottomOf="@id/guideline_margin_top" />
+
+    <TextView
+        android:id="@+id/tusPalabrasTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:autoSizeTextType="uniform"
+        android:text="Tus Palabras"
+
+        android:fontFamily="sans-serif-thin"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/guideline_margin_left"
+        app:layout_constraintTop_toBottomOf="@id/titleModalidad5Palabras" />
+
+    <TextView
+        android:id="@+id/palabra1TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:autoSizeTextType="uniform"
+        android:text="Palabra1"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="@id/guideline_margin_left"
+        app:layout_constraintEnd_toEndOf="@id/guideline_center_vertical"
+        app:layout_constraintTop_toBottomOf="@id/tusPalabrasTextView" />
+
+    <TextView
+        android:id="@+id/palabra2TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:autoSizeTextType="uniform"
+        android:text="Palabra2"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toStartOf="@id/guideline_margin_right"
+        app:layout_constraintStart_toEndOf="@id/guideline_center_vertical"
+        app:layout_constraintTop_toBottomOf="@+id/tusPalabrasTextView" />
+
+    <TextView
+        android:id="@+id/palabra3TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:autoSizeTextType="uniform"
+        android:text="Palabra3"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="@id/guideline_margin_left"
+        app:layout_constraintEnd_toEndOf="@id/guideline_center_vertical"
+        app:layout_constraintTop_toBottomOf="@id/palabra1TextView" />
+
+    <TextView
+        android:id="@+id/palabra4TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:autoSizeTextType="uniform"
+        android:text="Palabra4"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toStartOf="@id/guideline_margin_right"
+        app:layout_constraintStart_toEndOf="@id/guideline_center_vertical"
+        app:layout_constraintTop_toBottomOf="@+id/palabra2TextView" />
+
+
+    <TextView
+        android:id="@+id/palabra5TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:autoSizeTextType="uniform"
+        android:text="Palabra5"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintBottom_toTopOf="@id/guideline_center_horizontal"
+        app:layout_constraintEnd_toEndOf="@id/guideline_margin_right"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@id/guideline_margin_left"
+        app:layout_constraintTop_toBottomOf="@id/palabra3TextView" />
+
+    <TextView
+        android:id="@+id/palabra10sec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoSizeTextType="uniform"
+        android:text="Palabra10sec"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="@id/guideline_margin_right"
+        app:layout_constraintStart_toStartOf="@id/guideline_margin_left"
+        app:layout_constraintTop_toTopOf="@id/guideline_margin_top"
+        app:layout_constraintBottom_toTopOf="@id/guideline_center_horizontal"/>
+    <TextView
+        android:id="@+id/tuHistoriaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:autoSizeTextType="uniform"
+        android:text="Tu Historia"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/guideline_margin_left"
+        app:layout_constraintTop_toBottomOf="@+id/palabra5TextView" />
+
+    <Button
+        android:id="@+id/buttonHablar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/botones_marrones"
+        android:text="Manten para Hablar"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_margin_bottom"
+        app:layout_constraintEnd_toStartOf="@id/guideline_center_vertical"
+        app:layout_constraintStart_toStartOf="@id/guideline_margin_left"
+        app:layout_constraintTop_toBottomOf="@id/guideline_buttons" />
+
+    <Button
+        android:id="@+id/buttonEnviar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/botones_azules"
+        android:text="Enviar"
+        android:textColor="@color/white"
+        android:onClick="onClickSend"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_margin_bottom"
+        app:layout_constraintEnd_toStartOf="@id/guideline_margin_right"
+        app:layout_constraintStart_toStartOf="@id/guideline_center_vertical"
+        app:layout_constraintTop_toBottomOf="@id/guideline_buttons" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="@id/guideline_margin_left"
+        app:layout_constraintTop_toBottomOf="@id/tuHistoriaTextView"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_buttons"
+        app:layout_constraintEnd_toStartOf="@id/guideline_margin_right"
+        >
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_margin_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_margin_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.85" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_margin_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.08"/>
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_margin_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.92"/>
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".salaaptitudes.juego1.TestJuego1SalaAptitudes">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_margin_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_margin_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.8" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_margin_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.08"/>
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_margin_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.92"/>
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+
+    <TextView
+        android:id="@+id/tituloTestEvaluarExposicionTexto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/tituloTestEvaluar"
+        android:textAllCaps="true"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_margin_right"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/guideline_margin_left"
+        app:layout_constraintTop_toTopOf="@+id/guideline_margin_top"
+        app:layout_constraintVertical_bias="0.039" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="@id/guideline_margin_left"
+        app:layout_constraintTop_toBottomOf="@id/tituloTestEvaluarExposicionTexto"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_buttons"
+        app:layout_constraintEnd_toStartOf="@id/guideline_margin_right"
+        android:elevation="-100dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pregunta1ExponerTextoTexto"
+                android:text="Pregunta 1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15sp"
+                android:layout_marginTop="15sp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/pregunta1ExponerTextoRadioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/pregunta2ExponerTextoTexto"
+                android:text="Pregunta 2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15sp"
+                android:layout_marginTop="15sp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/pregunta2ExponerTextoRadioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            </RadioGroup>
+
+
+
+            <TextView
+                android:id="@+id/pregunta3ExponerTextoTexto"
+                android:text="Pregunta 3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15sp"
+                android:layout_marginTop="15sp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/pregunta3ExponerTextoRadioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/pregunta4ExponerTextoTexto"
+                android:text="Pregunta 4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15sp"
+                android:layout_marginTop="15sp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/pregunta4ExponerTextoRadioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/pregunta5ExponerTextoTexto"
+                android:text="Pregunta 5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15sp"
+                android:layout_marginTop="15sp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/pregunta5ExponerTextoRadioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/textoPregunta1SeekBarExponerTextoSalaAptitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:layout_marginBottom="15sp"
+                android:gravity="center"
+                android:text="@string/pregunta1TestSalaAptitudes"
+                android:textSize="20sp" />
+
+            <SeekBar
+                android:id="@+id/seekBarPregunta1TestSalaAptitudes"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15sp"
+                android:layout_marginBottom="15sp"
+                android:max="5"
+                android:min="1"
+                android:progress="3"
+                android:progressTint="#008CFF"
+                android:thumbTint="#008CFF" />
+
+            <TextView
+                android:id="@+id/textoPregunta2SeekBarExponerTextoSalaAptitudes"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15sp"
+                android:layout_marginBottom="15sp"
+                android:gravity="center"
+                android:text="@string/pregunta2TestSalaAptitudes"
+                android:textSize="20sp" />
+
+            <SeekBar
+                android:id="@+id/seekBarPregunta2TestSalaAptitudes"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15sp"
+                android:layout_marginBottom="15sp"
+                android:max="5"
+                android:min="1"
+                android:progress="3"
+                android:progressTint="#008CFF"
+                android:thumbTint="#008CFF" />
+
+            <TextView
+                android:id="@+id/textoPregunta3SeekBarExponerTextoSalaAptitudes"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15sp"
+                android:layout_marginBottom="15sp"
+                android:gravity="center"
+                android:text="@string/pregunta3TestSalaAptitudes"
+                android:textSize="20sp" />
+
+            <SeekBar
+                android:id="@+id/seekBarPregunta3TestSalaAptitudes"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15sp"
+                android:layout_marginBottom="15sp"
+                android:max="5"
+                android:min="1"
+                android:progress="3"
+                android:progressTint="#008CFF"
+                android:thumbTint="#008CFF" />
+
+            <TextView
+                android:id="@+id/textoPregunta4SeekBarExponerTextoSalaAptitudes"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15sp"
+                android:layout_marginBottom="15sp"
+                android:gravity="center"
+                android:text="@string/pregunta4TestSalaAptitudes"
+                android:textSize="20sp" />
+
+            <SeekBar
+                android:id="@+id/seekBarPregunta4TestSalaAptitudes"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15sp"
+                android:layout_marginBottom="15sp"
+                android:max="5"
+                android:min="1"
+                android:progress="3"
+                android:progressTint="#008CFF"
+                android:thumbTint="#008CFF" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progressBarTestExposicionTexto"
+        style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateTint="#008CFF"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_margin_bottom"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_margin_right"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/guideline_margin_left"
+        app:layout_constraintTop_toBottomOf="@id/guideline_buttons"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/desacuerdo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Muy de acuerdo"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_margin_bottom"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_margin_right"
+        app:layout_constraintTop_toTopOf="@+id/guideline_buttons"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/deacuerdo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Muy en desacuerdo"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_margin_bottom"
+        app:layout_constraintStart_toStartOf="@+id/guideline_margin_left"
+        app:layout_constraintTop_toTopOf="@+id/guideline_buttons"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/terminarEvaluarButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/botones_azules"
+        android:onClick="onClickTerminarEvaluarButton"
+        android:text="Enviar"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_margin_bottom"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_margin_right"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline_margin_left" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

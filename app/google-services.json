@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "464793283891",
+    "project_id": "roomchoice-2f8fd",
+    "storage_bucket": "roomchoice-2f8fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464793283891:android:832453f168f27f5b17e246",
+        "android_client_info": {
+          "package_name": "com.example.roomchoice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464793283891-s61f5774hj4j5knsvs23fm0rdh1oqk93.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnUejbTr3_bQV4Ofd16E4ALeH1SMCWDgg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "464793283891-s61f5774hj4j5knsvs23fm0rdh1oqk93.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

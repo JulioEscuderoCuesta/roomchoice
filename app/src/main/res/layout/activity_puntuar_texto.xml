@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".salacreatividad.PuntuarTexto">
+
+    <TextView
+        android:id="@+id/titleEvaluaHistoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoSizeTextType="uniform"
+        android:text="Evalúa una historia"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/guideline_margin_left"
+        app:layout_constraintTop_toBottomOf="@id/guideline_margin_top" />
+    <TextView
+        android:id="@+id/palabras"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:autoSizeTextType="uniform"
+        android:text=""
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/guideline_margin_left"
+        app:layout_constraintEnd_toEndOf="@id/guideline_margin_right"
+        app:layout_constraintTop_toBottomOf="@id/titleEvaluaHistoria" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_center_horizontal"
+        app:layout_constraintEnd_toStartOf="@id/guideline_margin_right"
+        app:layout_constraintStart_toStartOf="@id/guideline_margin_left"
+        app:layout_constraintTop_toBottomOf="@id/palabras"
+        >
+
+        <TextView
+            android:id="@+id/textViewHistoriaAEvaluar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="8dp"
+            android:gravity="start|top"
+            android:textStyle="italic" />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonEnviar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/botones_marrones"
+        android:text="Evaluar"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_margin_bottom"
+        app:layout_constraintEnd_toStartOf="@id/guideline_margin_right"
+        app:layout_constraintStart_toStartOf="@id/guideline_margin_left"
+        app:layout_constraintTop_toBottomOf="@id/seekbarPuntuacionNaturalidad"
+        android:onClick="onClickEvaluar"/>
+
+    <SeekBar
+        android:id="@+id/seekbarPuntuacionPalabras"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:progress="3"
+        android:max="5"
+        android:min="1"
+        android:progressTint="#008CFF"
+        android:thumbTint="#008CFF"
+        app:layout_constraintBottom_toTopOf="@id/seekbarPuntuacionCohesion"
+        app:layout_constraintEnd_toStartOf="@id/guideline_margin_right"
+        app:layout_constraintStart_toStartOf="@id/guideline_margin_left"
+        app:layout_constraintTop_toBottomOf="@id/guideline_center_horizontal" />
+
+    <SeekBar
+        android:id="@+id/seekbarPuntuacionCohesion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:progress="3"
+        android:max="5"
+        android:min="1"
+        android:progressTint="#008CFF"
+        android:thumbTint="#008CFF"
+        app:layout_constraintBottom_toTopOf="@id/seekbarPuntuacionFluidez"
+        app:layout_constraintEnd_toStartOf="@id/guideline_margin_right"
+        app:layout_constraintStart_toStartOf="@id/guideline_margin_left"
+        app:layout_constraintTop_toBottomOf="@id/seekbarPuntuacionPalabras" />
+    <SeekBar
+        android:id="@+id/seekbarPuntuacionFluidez"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:progress="3"
+        android:max="5"
+        android:min="1"
+        android:progressTint="#008CFF"
+        android:thumbTint="#008CFF"
+        app:layout_constraintBottom_toTopOf="@id/seekbarPuntuacionNaturalidad"
+        app:layout_constraintEnd_toStartOf="@id/guideline_margin_right"
+        app:layout_constraintStart_toStartOf="@id/guideline_margin_left"
+        app:layout_constraintTop_toBottomOf="@id/seekbarPuntuacionCohesion" />
+    <SeekBar
+        android:id="@+id/seekbarPuntuacionNaturalidad"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:progress="3"
+        android:max="5"
+        android:min="1"
+        android:progressTint="#008CFF"
+        android:thumbTint="#008CFF"
+        app:layout_constraintBottom_toTopOf="@id/buttonEnviar"
+        app:layout_constraintEnd_toStartOf="@id/guideline_margin_right"
+        app:layout_constraintStart_toStartOf="@id/guideline_margin_left"
+        app:layout_constraintTop_toBottomOf="@id/seekbarPuntuacionFluidez" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_margin_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_margin_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.75" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_margin_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.08"/>
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_margin_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.92"/>
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <TextView
+        android:id="@+id/textPuntuacionBaja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Muy en desacuerdo"
+        app:layout_constraintTop_toBottomOf="@id/seekbarPuntuacionNaturalidad"
+        app:layout_constraintStart_toStartOf="@+id/guideline_margin_left" />
+
+    <TextView
+        android:id="@+id/textPuntuacionAlta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Muy de acuerdo"
+        app:layout_constraintTop_toBottomOf="@+id/seekbarPuntuacionNaturalidad"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_margin_right" />
+    <TextView
+        android:id="@+id/textoCohesion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Se han incluido las palabras de forma coherente?"
+        app:layout_constraintBottom_toTopOf="@+id/seekbarPuntuacionCohesion"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_margin_right"
+        app:layout_constraintStart_toEndOf="@id/guideline_margin_left"
+        />
+    <TextView
+        android:id="@+id/textoFluidez"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿La historia ha parecido cohesionada y con sentido?"
+        app:layout_constraintBottom_toTopOf="@+id/seekbarPuntuacionFluidez"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_margin_right"
+        app:layout_constraintStart_toEndOf="@id/guideline_margin_left"
+        />
+    <TextView
+        android:id="@+id/textoNaturalidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿El nivel de fluidez de la narración ha sido alto?"
+        app:layout_constraintBottom_toTopOf="@+id/seekbarPuntuacionNaturalidad"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_margin_right"
+        app:layout_constraintStart_toEndOf="@id/guideline_margin_left"
+        />
+    <TextView
+        android:id="@+id/textoPalabras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Se ha expresado de forma natural?"
+        app:layout_constraintBottom_toTopOf="@+id/seekbarPuntuacionPalabras"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_margin_right"
+        app:layout_constraintStart_toEndOf="@id/guideline_margin_left"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
